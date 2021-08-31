@@ -1,0 +1,11 @@
+name: 'Composite Test'
+description: 'Composite Test'
+
+inputs: {}
+
+runs:
+    using: "composite"
+    steps:
+      - name: Checkout Current Repository
+        uses: actions/checkout@v2
+

@@ -5,6 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          path: .composite-action
-      - uses: ./.composite-action/composite
+      - uses: ./composite
